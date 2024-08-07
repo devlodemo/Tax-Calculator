@@ -1,9 +1,3 @@
-"""
-Tax-Calculator GrowDiff class that is used to modify GrowFactors.
-"""
-# CODING-STYLE CHECKS:
-# pycodestyle growdiff.py
-# pylint --disable=locally-disabled growdiff.py
 import os
 import numpy as np
 from taxcalc.parameters import Parameters
@@ -86,3 +80,13 @@ class GrowDiff(Parameters):
         """
         Unimplemented base class method that is not used here.
         """
+
+    def validate_parameters(self, params):
+        """
+        Validate the parameters to ensure they are within specified bounds.
+        If any parameter is out of bounds, raise an error or log a warning.
+        """
+        for param, value in params.items():
+            if not (0 <= value <= 1):  # Example bounds, adjust as necessary
+                raise ValueError(f"Parameter {param} out of bounds with value {value}.")
+
