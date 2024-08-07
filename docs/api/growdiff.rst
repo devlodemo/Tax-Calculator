@@ -5,7 +5,9 @@ Tax-Calculator GrowDiff
 
 **Tax-Calculator GrowDiff**
 
-taxcalc.growdiff
+The `GrowDiff` module in Tax-Calculator is used to manage growth assumptions that affect the extrapolation of economic data over time. This module allows users to specify alternative economic growth scenarios that can influence the results of tax policy simulations.
+
+**Module:** `taxcalc.growdiff`
 ------------------------------------------
 
 .. currentmodule:: taxcalc.growdiff
