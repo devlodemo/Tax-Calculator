@@ -1,9 +1,3 @@
-"""
-Tax-Calculator GrowDiff class that is used to modify GrowFactors.
-"""
-# CODING-STYLE CHECKS:
-# pycodestyle growdiff.py
-# pylint --disable=locally-disabled growdiff.py
 import os
 import numpy as np
 from taxcalc.parameters import Parameters
@@ -87,4 +81,3 @@ class GrowDiff(Parameters):
         Unimplemented base class method that is not used here.
         """
 
-#testing devlo
