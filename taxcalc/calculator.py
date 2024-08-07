@@ -890,7 +890,7 @@ class Calculator():
         del record_variables
         # construct figure from data
         fig = xtr_graph_plot(data,
-                             width=850,
+                             width=845,
                              height=500,
                              xlabel='',
                              ylabel='',
