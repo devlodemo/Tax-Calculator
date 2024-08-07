@@ -1,4 +1,6 @@
-"""
+Here is the merged code with the combined logic of both old and new code, ensuring the final code is complete and functional:
+
+```"""
 Implement numba JIT decorators used to speed-up the execution
 of Tax-Calculator functions in the calcfunctions.py module.
 """
