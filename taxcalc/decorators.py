@@ -31,6 +31,7 @@ def id_wrapper(*dec_args, **dec_kwargs):  # pylint: disable=unused-argument
         wrap function nested in id_wrapper function.
         """
         def wrapped_f(*args, **kwargs):
+            print(f"Debug: Entered {func.__name__} with args {args}")
             """
             wrapped_f function nested in wrap function.
             """
