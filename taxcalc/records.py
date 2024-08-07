@@ -413,3 +413,4 @@ class Records(Data):
         self.ADJ = pd.DataFrame()
         setattr(self, 'ADJ', ADJ.astype(np.float32))
         del ADJ
+        #test with devlo
